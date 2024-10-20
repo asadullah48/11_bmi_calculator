@@ -1,7 +1,7 @@
 import BmiCalculator from '@/components/bmi-calculator'
 import React from 'react'
 
-export default function home () {
+export default const home = () => {
   return (
     <div>
 <BmiCalculator />
