@@ -78,11 +78,11 @@ export default function BmiCalculator() {
 
   // JSX return statement rendering the BMI calculator UI
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
-      <Card className="w-full max-w-md mx-auto bg-gray-800 border border-gray-600 shadow-lg hover:border-blue-500 hover:shadow-xl transition-all duration-300 ease-in-out rounded-lg p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-brown-900 text-yellow">
+      <Card className="w-full max-w-md mx-auto bg-brown-800 border border-gray-600 shadow-lg hover:border-blue-500 hover:shadow-xl transition-all duration-300 ease-in-out rounded-lg p-6">
         <CardHeader className="text-center border-b border-gray-700 pb-4 mb-4">
           <CardTitle className="text-4xl font-extrabold text-indigo-400">BMI Calculator</CardTitle>
-          <CardDescription className="text-gray-400">
+          <CardDescription className="text-brown-400">
             Enter your height in feet and inches, and your weight in kg.
           </CardDescription>
         </CardHeader>
@@ -96,7 +96,7 @@ export default function BmiCalculator() {
               placeholder="Enter feet"
               value={feet}
               onChange={handleFeetChange}
-              className="bg-gray-700 text-white placeholder-gray-400 border border-gray-600 rounded-md focus:border-indigo-500 focus:ring-indigo-500 focus:ring-1 transition"
+              className="bg-gray-700 text-white placeholder-gray-400 border border-gr-600 rounded-md focus:border-indigo-500 focus:ring-indigo-500 focus:ring-1 transition"
             />
           </div>
           {/* Input for height in inches */}

@@ -78,8 +78,8 @@ export default function BmiCalculator() {
 
   // JSX return statement rendering the BMI calculator UI
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
-      <Card className="w-full max-w-md mx-auto bg-gray-800 border border-gray-600 shadow-lg hover:border-blue-500 hover:shadow-xl transition-all duration-300 ease-in-out rounded-lg p-6">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-brown-900 text-yellow">
+      <Card className="w-full max-w-md mx-auto bg-brown-800 border border-gray-600 shadow-lg hover:border-blue-500 hover:shadow-xl transition-all duration-300 ease-in-out rounded-lg p-6">
         <CardHeader className="text-center border-b border-gray-700 pb-4 mb-4">
           <CardTitle className="text-4xl font-extrabold text-indigo-400">BMI Calculator</CardTitle>
           <CardDescription className="text-gray-400">
